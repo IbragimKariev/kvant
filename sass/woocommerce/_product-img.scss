@@ -1,0 +1,209 @@
+
+
+.product-image{
+	position: relative;
+	perspective: 1000; 
+	.image{		
+    overflow: hidden;	
+		img{
+			width: 100%;
+			height: auto;
+      -webkit-transition: all 0.7s ease;
+      transition: all 0.7s ease;
+      &:hover{
+        -webkit-transform:scale(1.2);
+        transform:scale(1.2);
+      }
+		}
+		.price{
+			position: absolute;
+			bottom:0px;
+			right: 0px;
+			display: block;
+			width: 80px;
+			height: 30px;
+			background: #5b5b5b;
+			.amount{
+				color: #fff;
+				text-align: center;
+				display: block;
+				line-height: 30px;
+        font-size: 14px;
+        font-weight: 700;
+			}
+		}
+		.price-content{
+			padding:2px 5px !important;
+		}
+
+		
+	}
+
+
+}	
+.names{
+	text-align:center;
+	padding-top: 18px;
+	a{
+		color: #444444;
+		text-decoration: none;
+		font-size: 13px;
+		&:hover{
+			color: #97d8bd;
+		}
+	}
+}
+.icon-judge{
+	text-align:center;
+      &:after{
+        content: '';
+        display: inline-block;
+        width: 100px;
+        height: 2px;
+        border-bottom: 1px solid  #d7d7d7;
+      }
+      ul{
+        margin-top: 10px;
+        li{
+          list-style-type: none;
+          margin-left: px;
+          float: none;
+          color: #F9CE4A;
+          text-align: center;
+          display: inline-block;
+
+        }
+      }
+    }
+    .cart-text{
+      text-align:center;
+      display: inherit;
+      &:hover{
+        .whishlist{
+          width: 35px;
+          height: 28px;
+          opacity: 1;
+          visibility: visible;
+          display: inline-block;
+
+
+          a{
+            text-decoration: none;
+            display: inline-block;
+            i{
+              color: #dddddd;
+               &:hover{
+              color: #fff;
+              background: black;
+            }
+              
+            }
+          }
+
+          &:after{
+            content: '';
+            display: inline-block;
+            width: 1px;
+            height: 15px;
+            border-right: 1px solid  #d7d7d7;
+            
+
+          }
+        }
+        .refresh{
+            transition: all 0.30s ease 0s;
+            width: 30px;
+            height: 28px;
+            opacity: 1;
+            visibility: visible;
+            display: inline-block;
+            a{
+              text-decoration: none;
+              display: inline-block;
+              i{
+                color: #ddd;
+                padding:8px;
+                background:#fff;
+                margin-left: 2px;
+                &:hover{
+                  color: #fff;
+                  background: black;
+                }
+
+              }
+            }   
+        }
+      }
+
+      p{
+      	margin-top: 10px;
+        border-radius:20px;
+        display: inline-block;
+        font-size: 12px;
+        color: #444;
+        background:#f1f1f1;
+        padding: 8px 13px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        &:hover {
+          background:#97d8bd;
+         a{ color: #fff;}
+        }
+      }
+
+      .whishlist{
+        
+        width: 0px;
+        height: 0px;
+        opacity: 0;
+        visibility: hidden;
+        a{
+          text-decoration: none;
+          display: none;
+          i{
+            color: #dddddd;
+            padding:8px;
+            &:hover{
+              color: #fff;
+              background: black;
+              font-weight: 600;
+            }
+          }
+        }
+
+        &:after{
+          content: '';
+          display: inline-block;
+          width: 1px;
+          height: 15px;
+          border-right: 1px solid  #d7d7d7;
+          
+
+        }
+      }
+      .refresh{
+       
+        width: 0px;
+        height: 0px;
+        opacity: 0;
+        visibility: hidden;
+        a{
+          text-decoration: none;
+          display: none;
+          i{
+            color: #ddd;
+            padding:8px;
+            background:#fff;
+            margin-left: 2px;
+            
+            &:hover{
+              color: #fff;
+              background: black;
+            }
+
+          }
+        }   
+
+      }
+    }
+

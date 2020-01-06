@@ -1,0 +1,380 @@
+
+.main-content{
+	
+	.product-name{
+		.table-responsive{
+			width: 100%;
+			table { 
+				margin-top:60px;
+				width: 100%; 
+				border-collapse: collapse; 
+			}
+				/* Zebra striping */
+			tr:nth-of-type(odd) { 
+				background: #fff; 
+			}
+			th { 
+			    background: #fff; 
+				color: #333; 
+				font-weight: 700; 
+				font-size: 16px;
+			}
+			td, th { 
+				padding: 15px; 
+				border: 1px solid #ccc; 
+				text-align: center; 
+			}
+			td{
+				vertical-align: middle;
+				text-align: center;
+				img{
+					margin: auto;
+				}
+			}
+		}
+		.product-shop{
+			.clear-cart{
+               margin-top: 20px;
+               .clear-shop{
+               	   
+               	   a{
+               	   	font-size: 14px;
+               	   	display: inline-block;
+               	   	padding: 7px 24px;
+					background: #333;
+					color: #fff;
+					text-decoration: none;
+					cursor: pointer;
+                    font-weight: 700;
+                    border-radius:20px;
+						&:hover{
+					    	background:#A2C9B9;
+					    	
+					    }
+               	   }
+               }
+
+			}
+			
+            .the-cart{
+             	margin-top: 20px;
+
+               .clear-shop-left{
+               	   a{
+               	   	    display: inline-block;
+	               	   	padding:7px 24px;
+						background:#333;
+						color: #fff;
+						text-decoration: none;
+						font-size: 14px;
+						cursor: pointer;
+						font-weight: 700;
+						border-radius:20px;
+						&:hover{
+					    	background:#A2C9B9;
+					    
+					    }
+               	   }
+
+               }
+               .clear-shop-right{
+               	   a{
+               	   	    display: inline-block;
+	               	   	padding:7px 20px;
+						background: #333;
+						color:#fff;
+						text-decoration: none;
+						font-size: 14px;
+						float: right;
+						cursor: pointer;
+						font-weight: 700;
+						border-radius:20px;
+						&:hover{
+					    	background:#A2C9B9;
+					    	
+					    }
+               	   }
+
+               }
+
+             }
+			
+		}
+		.product-code{
+			.product-related{
+				h3{
+					font-size: 16px;
+					position: relative;
+					margin-top: 42px;
+					font-weight: 600;
+					&:after{
+						content: '';
+						width: 100%;
+						height: 1px;
+						display: inline-block;
+						background:#f1f1f1;
+						top: 50%;
+						left: 0px;
+						z-index: -1;
+						position: absolute;
+					}
+					.the-after{
+						padding-right:10px;
+						background:#fff;
+					}
+				}
+				p{
+                  font-size: 13px;
+                  margin-top: 20px;
+				}
+			}
+			.product-dis{
+                h3{
+                	margin-top: 42px;
+					font-size: 16px;
+					position: relative;
+					font-weight: 600;
+					&:after{
+						content: '';
+						width: 100%;
+						height: 1px;
+						display: inline-block;
+						background:#f1f1f1;
+						top: 50%;
+						left: 0px;
+						z-index: -1;
+						position: absolute;
+					}
+					.the-after{
+						padding-right:20px;
+						background:#fff;
+					}
+				}
+				p{
+                  font-size: 13px;
+                  margin-top:20px;
+				}
+				.form-inline{
+                   .form-group{
+                   	  .form-control{
+                   	  	margin:20px 0px 20px 0px;
+                   	  	width: 60%;
+                   	  	height: 40px;
+                   	  	border:1px solid #E1D2D2;
+                   	  	padding:0px 10px;
+                        }
+                   	}
+                   	.btn-default{
+					    border: 0px none;
+					    background: #333;
+					    padding: 7px 26px;
+					    color: #fff;
+					    font-size: 13px;
+					   margin-bottom: 55px;
+					   cursor: pointer;
+					   font-weight: 700;
+					   border-radius:20px;
+					    &:hover{
+					    	background:#A2C9B9;
+					    }
+                   
+                    }
+                }
+				
+			}
+			.product-form{
+                h3{
+					font-size: 16px;
+					position: relative;
+					font-weight: 600;
+					&:after{
+						content: '';
+						width: 100%;
+						height: 1px;
+						display: inline-block;
+						background:#f1f1f1;
+						top: 50%;
+						left: 0px;
+						z-index: -1;
+						position: absolute;
+					}
+					.the-after{
+						padding-right:20px;
+						background:#fff;
+					}
+				}
+				p{
+                  font-size: 13px;
+                  margin-top: 20px;
+				}
+				.form-inline{
+                   .form-group{
+                   	  .form-control{
+                   	  	margin:20px 0px;
+                   	  	width: 63%;
+                   	  	height: 40px;
+                   	  	border:1px solid #E1D2D2;
+                   	  	padding:0px 10px;
+                        }
+                   	}
+                   	.btn-default{
+					    border: 0px none;
+					    background: #333;
+					    padding: 7px 26px;
+					    color: #fff;
+					    font-size: 13px;
+                        cursor: pointer;
+                        font-weight: 700;
+                        border-radius:20px;
+					    &:hover{
+					    	background:#A2C9B9;
+					    }
+                   
+                    }
+                    .disabled{
+                    	padding-top:10px;
+                    }
+                }
+				
+			}
+			.product-total{
+                 h3{
+					font-size: 16px;
+					margin-top: 42px;
+					position: relative;
+					font-weight: 600;
+					&:after{
+						content: '';
+						width: 100%;
+						height: 1px;
+						display: inline-block;
+						background:#f1f1f1;
+						top: 50%;
+						left: 0px;
+						z-index: -1;
+						position: absolute;
+					}
+					.the-after{
+						padding-right:20px;
+						background:#fff;
+					}
+				}
+				.col-text-left{
+					p{
+						text-align: right;
+						font-size: 13px;
+						margin-top: 20px;
+					}
+					h4{
+						text-align: right;
+						font-size: 16px;
+						margin-top: 13px;
+						font-weight: 400;
+					}
+				}
+				.col-text-right{
+					p{
+						text-align: right;
+						font-size: 13px;
+						margin-top: 20px;
+					}
+					h4{
+						text-align: right;
+						font-size: 16px;
+						margin-top:12px;
+						font-weight: 400;
+					}
+					.checkout{
+						width: 100%;
+						
+						.col-checkout{
+							margin-bottom: 27px;
+							margin-top: 16px;
+							padding: 7px 20px;
+							background: #333;
+							color: #fff;
+							float: right;
+							cursor: pointer;
+							font-weight: 600;
+							font-size: 14px;
+							border-radius:20px;
+							&:hover{
+						    	background:#A2C9B9;
+					        }
+						}
+					}
+				}
+				p{
+					font-size: 13px;
+					text-align: right;
+					margin-top: 27px;
+				}
+			}
+		}
+	}
+}
+
+
+@media (max-width: 992px){   
+	.main-content .product-name .product-code .product-dis .form-inline .btn-default {
+		margin-bottom: 20px;
+	}
+	.main-content .product-name .product-code .product-form .form-inline .btn-default {
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 480px){  
+    table {
+		overflow-x: auto;
+		display: block;
+	}
+}
+@media (max-width: 760px),(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	/*
+	Label the data
+	*/
+	td:nth-of-type(1):before { content: "First Name"; }
+	td:nth-of-type(2):before { content: "Last Name"; }
+	td:nth-of-type(3):before { content: "Job Title"; }
+	td:nth-of-type(4):before { content: "Favorite Color"; }
+	td:nth-of-type(5):before { content: "Wars of Trek?"; }
+	td:nth-of-type(6):before { content: "Porn Name"; }
+	td:nth-of-type(7):before { content: "Date of Birth"; }
+	td:nth-of-type(8):before { content: "Dream Vacation City"; }
+	td:nth-of-type(9):before { content: "GPA"; }
+	td:nth-of-type(10):before { content: "Arbitrary Data"; }
+}

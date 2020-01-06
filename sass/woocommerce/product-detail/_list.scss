@@ -1,0 +1,239 @@
+
+.products-list{
+	display:none;
+	&:active{
+		display: inline-block;
+		
+	}
+	.product-item{
+		margin-top: 30px;
+		.product-img{
+			.product-image-container{
+				position: relative;
+				img{
+					width: 100%;
+				}
+				.price{
+					position:absolute;
+					bottom:0px;
+					right: 0px;
+					width: 120px;
+					height: 30px;
+					background:#5b5b5b;
+					.amount{
+						color: #fff;
+						line-height: 30px;
+						margin-left: 10px;
+						font-size: 13px;
+					}
+					.amount-3{
+						color: #fff;
+						font-size: 10px;
+						text-decoration: line-through;
+					}
+				}
+			}
+		}
+
+		.product-item-details{
+			h3{
+				font-size: 13px;
+				text-align: left;
+			}
+			.the-names{
+				padding:0px;
+			}
+			.icon-content{
+				display: inline-block;
+				width: 100%;
+				ul{
+					margin-top: 5px;
+					float: left;
+					
+					li{
+						float: left;
+						list-style-type: none;
+						color: #f9ce4a;
+						margin-right: 3px;
+						display: block;
+					}
+				}
+				&:after{
+					width: 100px;
+					height: 2px;
+					content: '';
+					border-bottom:1px solid #d7d7d7;
+					display:block;
+					margin-top: 35px;
+
+				}
+			}
+			.text-product{
+				p{
+					margin-top: 17px;
+					text-align: left;
+					font-size: 13px;
+					color: #444;
+					&:after{
+						width: 100px;
+						height: 2px;
+						content: '';
+						border-bottom:1px solid #d7d7d7;
+						display:block;
+						margin-top: 20px;
+
+					}
+				}
+			}
+			.the-cart{
+				&:hover{
+					.whishlist{
+						width: 35px;
+						height: 28px;
+						opacity: 1;
+						visibility: visible;
+						display: inline-block;
+
+
+						a{
+							text-decoration: none;
+							display: inline-block;
+							i{
+								color: #dddddd;
+
+
+							}
+						}
+
+						&:after{
+							content: '';
+							display: inline-block;
+							width: 1px;
+							height: 15px;
+							border-right: 1px solid  #d7d7d7;
+
+
+						}
+					}
+					.refresh{
+						transition: all 0.30s ease 0s;
+						width: 30px;
+						height: 28px;
+						opacity: 1;
+						visibility: visible;
+						display: inline-block;
+						a{
+							text-decoration: none;
+							display: inline-block;
+							i{
+								color: #ddd;
+								padding:8px;
+								background:#fff;
+								margin-left: 2px;
+
+								&:hover{
+									color: #fff;
+									background: black;
+								}
+
+							}
+						}   
+
+					}
+				}
+
+				p{
+					margin-top: 20px;
+					display: inline-block;
+					font-size: 12px;
+					color: #444;
+					background:#f1f1f1;
+					padding: 8px 13px;
+					font-family: 'Open Sans', sans-serif;
+					border-radius: 20px;
+
+					&:hover {
+						background:#97d8bd;
+					}
+				}
+
+				.whishlist{
+
+					width: 0px;
+					height: 0px;
+					opacity: 0;
+					visibility: hidden;
+					a{
+						text-decoration: none;
+						display: none;
+						i{
+							color: #dddddd;
+							padding:8px;
+
+						}
+					}
+
+					&:after{
+						content: '';
+						display: inline-block;
+						width: 1px;
+						height: 15px;
+						border-right: 1px solid  #d7d7d7;
+
+
+					}
+				}
+				.refresh{
+
+					width: 0px;
+					height: 0px;
+					opacity: 0;
+					visibility: hidden;
+					a{
+						text-decoration: none;
+						display: none;
+						i{
+							color: #ddd;
+							padding:8px;
+							background:#fff;
+							margin-left: 2px;
+
+							&:hover{
+								color: #fff;
+								background: black;
+							}
+
+						}
+					}   
+
+				}
+			}
+		}
+	}
+	
+}
+@media only screen and (max-width: 992px) {
+   .products-list .product-item .product-item-details .text-product p {
+    	margin-top: 0px;
+    	font-size: 12px;
+    }
+    .products-list .product-item .product-item-details .text-product p::after {
+    	margin-top: 0px;
+    }
+    .product-img .product-image-container img{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 768px) {
+
+	.product-img .product-image-container img {
+		margin-bottom: 20px;
+	}
+	
+}
+@media only screen and (max-width: 480px) {
+	
+	.products-list .product-item .product-img .product-image-container {
+		margin-bottom: 20px;
+	}
+}

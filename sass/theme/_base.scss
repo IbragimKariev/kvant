@@ -1,0 +1,62 @@
+
+html, body {
+    height: 100%;
+}
+html {
+    font-size: 62.5%;
+}
+
+body{
+	font-family: Lato;
+	color: #333;
+	font-size: 13px;
+	font-style: normal;
+    font-weight: 400;
+    line-height: 1.42857;
+    overflow-x: hidden;
+}
+
+/*---------- Tool ----------*/
+.d-table{
+  display: table;
+  width: 100%;
+  > div{ 
+    display: table-cell;
+  	vertical-align: middle;
+  }
+}
+
+.f-left{ float: left !important;}
+.f-right{ float: right !important;}
+.f-none{ float: none !important;}
+
+.a-left{ text-align: left !important;}
+.a-right{ text-align: right !important;}
+.a-center{ text-align: center !important;}
+
+
+/*---------- Links ----------*/
+.links{
+	list-style: none;
+	a{		
+		text-decoration: none;		
+		display: block;
+		line-height: 26px;
+	}
+	&.links-inline{		
+		
+		li{
+			float: left;
+			margin-right: 10px;		
+			
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+a{ color: #444;}
+a:focus{
+	outline: none;
+}

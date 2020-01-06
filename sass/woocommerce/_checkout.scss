@@ -1,0 +1,505 @@
+
+.main-content{
+	.checkout-left{
+		margin-top: 54px;
+		h3{
+			font-size: 16px;
+			color: #444;
+			position: relative;
+			&:after{
+				content: '';
+				display: inline-block;
+				background: #f1f1f1;
+				width: 100%;
+				height: 1px;
+				position:absolute;
+				top: 50%;
+				z-index: -1;
+				left: 0px;
+			}
+			.the-after{
+				padding-right: 10px;
+				background:#fff;
+			}
+		}
+		ul{
+			margin-top: 20px;
+			li{
+				list-style-type: none;
+				margin-top: 15px;
+				a{
+					text-decoration: none;
+					color: #444;
+					font-size: 13px;
+				}
+			}
+		}
+	}
+	.checkbox-method-block{
+		.checkout-right{
+			h3{
+				font-size: 16px;
+				color: #444;
+				position: relative;
+				margin-top: 54px;
+				&:after{
+					content: '';
+					display: inline-block;
+					background: #f1f1f1;
+					width: 100%;
+					height: 1px;
+					position:absolute;
+					top: 50%;
+					z-index: -1;
+					left: 0px;
+				}
+				.the-after-right{
+					padding-right: 10px;
+					background:#fff;
+				}
+			}
+			.checkout-method-title{
+				margin-top:25px;
+				margin-bottom:25px;
+				width: 100%;
+				height: 50px;
+				border:1px solid #f1f1f1;
+				&:active{
+
+				}
+				.method-top{
+					line-height: 50px;
+					padding: 0px 10px;
+					.sub-method a{
+						background: #97d8bd ;
+						padding: 8px 5px;
+						color: rgb(239, 252, 243);
+						cursor: pointer;
+						line-height: 50px;
+					}
+					.text-method{
+						margin-left: 10px;
+						font-size: 14px;
+					}
+					
+				}
+				
+			}
+		}
+		.form-continue{
+			p{
+				font-size: 13px;
+			}
+			.checkbox{
+				padding-top: 20px;
+				padding-bottom:10px;
+			}
+			.radio{
+				input{
+					cursor: pointer;
+				}
+			}
+			.col-text{
+				.tex-register{
+					margin-top: 10px;
+				}
+				p{
+					padding-top:10px;
+				}
+				.the-tasb{
+					&:after{
+						content: '';
+						display:inline-block;
+						width: 7px;
+						height: 7px;
+						background:#333;
+						float: left;
+						margin-top: 7px;
+						border-radius:50%;
+						margin-right: 10px;
+					}
+				}
+			}
+			.sub-continue{
+				a{
+					padding: 8px 15px;
+					background:#444;
+					color: #fff;
+					font-weight: 700;
+					font-size: 13px;
+					display: inline-block;
+					margin-top: 30px;
+					&:hover{
+						background:#A2C9B9;
+					}
+				}
+			}
+		}
+		
+	}
+	.checkbox-method-block{
+		.checkout-right{
+			.checkout-method-title{
+				margin-top:25px;
+				margin-bottom:25px;
+				width: 100%;
+				height: 50px;
+				border:1px solid #f1f1f1;
+				.method-top{
+					line-height: 50px;
+					padding: 0px 10px;
+					.sub-method{
+						background: #97d8bd ;
+						padding: 8px 12px;
+						color: rgb(239, 252, 243);
+					}
+					.text-method{
+						margin-left: 10px;
+						font-size: 14px;
+					}
+					
+				}
+				
+			}
+		}
+		&.active{
+			.text-form{
+				display: block;
+			}
+		}
+		.text-form{
+            display: none;
+
+			h3{
+				color: #333;
+				margin-top: 20px;
+				margin-bottom: 10px;
+				font-weight: 500;
+				font-size: 15px;
+				margin-left: 55px;
+				text-transform: uppercase;
+			}
+            ul{
+            	margin-top: 10px;
+
+            	li{
+            		list-style-type: none;
+            		text-align: right;
+            		margin-bottom: 42px;
+            	}
+            	.comment-bottom{
+            		margin-bottom: 99px;
+            	}
+            }
+            .text-times{
+            	margin: 0px;
+            	li{
+            		list-style-type: none;
+            		margin: 0px;
+            		text-align: left;
+            		float: left;
+            		.form-times{
+            			width: 108px;
+            			height: 40px;
+
+            		}
+            	}
+            }
+			.form-control{
+				width: 60%;
+				height: 40px;
+				background:none;
+				border:1px solid #e9e9e9;
+				margin-left:10px;
+				margin-bottom: 20px;
+				padding:10px;
+				color: #999;
+				-moz-appearance: none;
+			}
+			.form_icon{
+				-moz-appearance: none;
+				background: transparent none repeat scroll 0% 0%;
+				background-image: url("../images/assets/icon.jpg") ;
+				background-repeat: no-repeat;
+				background-position: calc(100% - 10px) 50%;
+			   cursor: pointer;
+			   -webkit-appearance: none;
+			   appearance:         none;
+			   padding-right:20px;
+			   &:before{
+			   	content: '\f078';
+			   	display: inline-block;
+			   	color: #333;
+			   }
+			}
+			.form-comment{
+				height: 100px;
+				
+			}
+			.form-bottom{
+				width: 70%;
+				height: 100px;
+				margin: auto;
+				border:1px solid #e9e9e9;
+				background:#f9f9fa;
+				.checkbox{
+					float: left;
+					line-height: 100px;
+					margin-left: 20px;
+				}
+				.btn-primary{
+					float: right;
+					padding:9px 60px;
+					background:#231f20; 
+					color: #fff;
+					border:0px;
+					margin-top: 30px;
+					margin-right: 20px;
+					font-weight: 500;
+					&:hover{
+						background:#A2C9B9;
+					}
+				}
+			}
+            
+		}
+		
+	}
+	.checkbox-method-block{
+		.checkout-right{
+			.checkout-method-title{
+				margin-top:25px;
+				margin-bottom:25px;
+				width: 100%;
+				height: 50px;
+				border:1px solid #f1f1f1;
+				.method-top{
+					line-height: 50px;
+					padding: 0px 10px;
+					.sub-method{
+						background: #97d8bd ;
+						padding: 8px 12px;
+						color: rgb(239, 252, 243);
+					}
+					.text-method{
+						margin-left: 10px;
+						font-size: 14px;
+					}
+					
+				}
+				
+			}
+		}
+		
+		.text-order{
+			text-align: center;
+			.top-order{
+            	width: 70%;
+            	float: none;
+            	 border-bottom:1px solid #e9e9e9;
+            	 display: inline-block;
+            	h3{
+            		color: #333;
+            		font-size: 15px;
+            		font-weight: 500;
+            		float: left;
+            		margin-left: 30px;
+                    padding-bottom:20px;
+            	}
+            	.right-totar{
+            		float: right;
+            		margin-right: 30px;
+            	}
+            }
+            .top-content{
+            	.top-input{
+            		display: inline-block;
+					vertical-align: middle;
+					text-transform: none;
+					float: left;
+					padding:20px 0px;
+					input{
+						cursor: pointer;
+						padding-right:10px;
+					}
+					
+                }
+            }
+            .list-product{
+            	border-bottom:1px solid #e9e9e9;
+            	width: 70%;
+            	display: inline-block;
+            	p{
+            		font-size: 14px;
+            		text-align: left;
+            		padding-top:20px;
+            		padding-bottom:30px;
+            		color: #999;
+            	}
+            	.text-list-order{
+	            	ul{
+	            		margin-top: 20px;
+	            		margin-left: 30px;
+	            		li{
+	            			list-style-type: none;
+	            			margin-bottom: 20px;
+	            			text-align: left;
+	            			
+	            			a{
+	            				text-decoration: none;
+	            				font-size: 14px;
+	            				color: #999;
+	            				font-weight: 500;
+	            				text-transform: uppercase;
+	            				&:hover{
+	            					color:#A2C9B9;
+	            				}
+	            			}
+	            		}
+	            	}
+	            }
+	            .text-list-line{
+	            	display: inline-block;
+	            	float: right;
+	            	ul{
+	            		float: right;
+	            		li{
+	            			font-size: 16px;
+	            			font-weight: 700;
+	            			margin-right: 30px;
+	            		}
+	            	}
+	            }
+            }
+            .sub-totar{
+            	padding:15px 0px;
+            	border-bottom:1px solid #e9e9e9;
+            	width: 70%;
+            	display: inline-block;
+            	img{
+            		margin-top: 30px;
+
+            	}
+            	.top-input{
+            		float: left;
+            		input{
+            			cursor: pointer;
+            			padding-right:10px;
+            		}
+            	}
+            	h3{
+            		color: #666;
+            		text-align: left;
+            		font-size: 15px;
+            		float: left;
+            		margin-left: 30px;
+            	}
+            	.sub-text{
+            		float: right;
+            		margin-right: 30px;
+            		font-size: 16px;
+            		font-weight: 600;
+            	}
+            	.sub-free{
+            		font-size: 14px;
+            		font-weight: 500;
+            	}
+
+            }
+            .sub-bottom{
+        		
+        		p{
+        			color: #444;
+        			text-align: left;
+        			
+        		}
+        	}
+            
+		}
+	}
+	.list-checkout{
+		p{
+			font-size: 13px;
+			margin-bottom: 20px;
+		}
+		.form-group{
+			p{
+				margin: 0px;
+			}
+			
+		}
+		input{
+			width: 71%;
+			height: 40px;
+			margin-top:10px;
+			margin-bottom: 11px;
+
+		}
+		
+		
+		
+		.tex-buttom{
+			display: inline-block;
+			.btn-primary{
+				border:0px;
+				padding:8px 15px;
+				background:#444;
+				color: #fff;
+				margin-top: 10px;
+				font-weight: 700;
+				float: left;
+				cursor: pointer;
+				&:hover{
+					background:#A2C9B9;
+				}
+			}
+			
+			p{
+				margin-top: 20px;
+				float: left;
+				margin-left: 20px;
+			}
+		}
+	}
+	
+}
+@media (max-width: 768px){
+	.main-content .checkout-left ul .bottom-method{
+		margin-bottom: 30px;
+	}
+	.main-content .checkbox-method .form-continue .sub-continue a {
+		margin-bottom: 40px;
+		display: inline-block;
+	}
+}
+@media (max-width: 480px){
+	.main-content .checkbox-method-block .form-continue .sub-continue a {
+		margin-bottom: 20px;
+	}
+	.main-content .checkbox-method-block .text-form ul li {
+		text-align: left;
+	}
+	.main-content .checkbox-method-block .text-form ul {
+		float: left;
+	}
+	.main-content .checkbox-method-block .text-form .text-times li .form-times {
+	    width: 79px;
+	}
+	.main-content .checkbox-method-block .text-form .form-bottom .btn-primary {
+	    padding: 8px 25px;
+	    margin-right: 20px;
+	}
+	.main-content .checkbox-method-block .text-form .form-bottom {
+	    width: 100%;
+	}
+	.main-content .checkbox-method-block .text-order .list-product .text-list-order ul li a {
+		font-size: 10px;
+	}
+	.main-content .checkbox-method-block .text-order .list-product .text-list-line ul li {
+		font-size: 13px;
+		font-weight: 500;
+	}
+}
+@media (max-width: 360px){
+	
+}
