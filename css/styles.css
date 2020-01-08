@@ -62,7 +62,9 @@ body {
   line-height: 1.42857;
   overflow-x: hidden;
 }
-
+p {
+  cursor: inherit!important;
+}
 /*---------- Tool ----------*/
 .d-table {
   display: table;
@@ -2465,7 +2467,7 @@ nav ul ul li.last-item > a {
   width: 100%;
   height: auto;
   margin-bottom: 26px;
-  cursor: pointer;
+
 }
 
 
