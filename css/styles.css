@@ -2762,7 +2762,7 @@ nav ul ul li.last-item > a {
   text-align: left;
 line-height: 20px;
   letter-spacing: 0.2px;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 20px;
 }
 .main-content .banner-content .right-banner .top-banner li{
@@ -4264,7 +4264,7 @@ footer .copyright ul li img {
   display: block;
   margin-top: 20px;
   color: rgba(33, 33, 33, 0.8);
-  font-size: 13px;
+  font-size: 12px;
   font-family: 'Roboto',sans-serif;
   text-transform: uppercase;
   text-decoration: underline;
@@ -4275,7 +4275,10 @@ footer .copyright ul li img {
 .latest-blog .box-content .blog-content .des .read-more:hover {
   color: #8095a3;
 }
-
+.caption h2{
+    color: #4169e1!important;
+    margin-top: 15%;
+}
 .banner-logo {
   margin-top: 45px;
 }
@@ -4283,7 +4286,7 @@ footer .copyright ul li img {
 .banner-logo h3 {
   color: #333;
   text-align: center;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
 }
 
@@ -4397,7 +4400,7 @@ footer .copyright ul li img {
 
 .main-content-list .main-content-left .col-after h3 {
   color: #333;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
 }
 
@@ -4425,7 +4428,7 @@ footer .copyright ul li img {
 }
 
 .main-content-list .main-content-left .comtent-sp .product .name {
-  font-size: 13px;
+  font-size: 12px;
   color: #444;
   margin-top: 30px;
   font-weight: 400;
@@ -4446,7 +4449,7 @@ footer .copyright ul li img {
 .main-content-list .main-content-left .comtent-sp .product ul li {
   float: left;
   list-style-type: none;
-  font-size: 13px;
+  font-size: 12px;
   color: #f9ce4a;
   padding-right: 2px;
 }
@@ -4478,7 +4481,7 @@ footer .copyright ul li img {
 .main-bottom .main-top-content h3 {
   color: #333;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -4525,7 +4528,7 @@ footer .copyright ul li img {
 .main-bottom .demo-main .the-item h3 {
   color: #444444;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   text-align: left;
   margin: 10px 0px;
@@ -4539,7 +4542,7 @@ footer .copyright ul li img {
   float: left;
   color: #444444;
   text-align: left;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.5;
 }
 
@@ -4556,7 +4559,7 @@ footer .copyright ul li img {
 @media (max-width: 1199px) {
   .main-content-list .main-content-left .comtent-sp .supmit a {
     padding: 8px 11px;
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 
@@ -4569,13 +4572,13 @@ footer .copyright ul li img {
   }
   .main-content-list .main-content-left .comtent-sp .supmit a {
     padding: 9px 15px;
-    font-size: 13px;
+    font-size: 12px;
   }
   .main-content-list .main-content-left .comtent-sp .supmit {
     margin-top: 30px;
   }
   .main-content-list .main-content-left .comtent-sp .product .name {
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 10px;
   }
   .main-content-list .main-content-left .comtent-sp .product ul {
@@ -4585,10 +4588,10 @@ footer .copyright ul li img {
 
 @media (max-width: 768px) {
   .main-content-list .main-content-left .comtent-sp .product .name {
-    font-size: 14px;
+    font-size: 13px;
   }
   .main-content-list .main-content-left .comtent-sp .supmit a {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 
@@ -4627,7 +4630,7 @@ footer .copyright ul li img {
 
 .main-content .sidebar-main .block-title h3 {
   color: #333;
-  font-size: 18px;
+  font-size: 17px;
   position: relative;
   font-weight: 400;
   margin-top: 55px;
@@ -4668,7 +4671,7 @@ footer .copyright ul li img {
   color: #333;
   text-decoration: none;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 13px;
   cursor: pointer;
 }
 
@@ -4698,7 +4701,7 @@ footer .copyright ul li img {
   color: #333;
   text-decoration: none;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 12px;
   content: none;
 }
 

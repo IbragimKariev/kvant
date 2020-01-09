@@ -94,7 +94,7 @@
 .caption .slider-top{
 	letter-spacing: 0.5em;
     text-transform: uppercase;
-    color: #fff;
+    color: #8095a3;
     margin-top: 30%;
     display: inline-block;
 
@@ -120,10 +120,7 @@
     margin-right: 5px;
 
 }
-.caption h2{
-	color: #fff;
-	margin-top: 15%;
-}
+
 .range_values input[type="text"]{
 	padding:0;
 	width:50%;
